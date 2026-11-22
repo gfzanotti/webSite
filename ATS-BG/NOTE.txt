@@ -1,0 +1,11 @@
+tabella DB comprende tutte le elaborazioni precedenti
+
+abbiamo 
+3 classi di struttura: RSA - ALZ - SOLLIEVO
+4 classi/tipologie utenti: RESIDENTE / NON RESIDENTE / SOLVENTE RESIDENTE / SOLVENTE NON RESIDENTE
+
+RSA [67] ripetute per 4 tipologie utente
+SOLLIEVO [67] ripetute per 2 tipologie utente
+ALZ [67] 1 solo tipo
+
+67 * 4 + 67 * 2 + 67  = 67 * 7 = 469

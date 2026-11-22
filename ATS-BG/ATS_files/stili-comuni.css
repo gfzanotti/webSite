@@ -1,0 +1,14 @@
+/* stili letti da tutti i temi, di portale e di amministrazione  */
+.arca-style-hr
+{
+	border-width: 2px;
+}
+
+.arca-style-titolo-sezione
+{
+	font-size: 100%;
+}
+.box-intranet-link-footer
+{
+	display:none;
+}
