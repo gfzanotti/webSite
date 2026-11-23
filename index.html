@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;1,9..144,300&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
 
@@ -29,10 +29,11 @@
 <section class="hero" id="home">
   <div class="hero-bg"></div>
   <div class="hero-inner">
-    <p class="eyebrow">Buongiorno, sono</p>
+    <!-- <p class="eyebrow">Buongiorno, sono</p> -->
     <h1>Gianfranco <em>Zanotti</em></h1>
-    <p class="role">Odontoiatra · Ricerca clinica · Gestione sanitaria</p>
-    <p class="lead">Dall'odontoiatria all'analisi dei dati in sanità, e le montagne di casa: Valcamonica e Alto Sebino, dove ogni crinale è un punto di vista.</p>
+  <p class="role">Data Scientist · Odontoiatra · Ricerca clinica · Gestione sanitaria</p>
+    <p class="lead">Dall'odontoiatria all'analisi dei dati in sanità, girando per monti: Valcamonica e Alto Sebino, dove ogni crinale è un punto di vista.</p>
+    <p class="lead">«Chi più in alto sale, più lontano vede; chi più lontano vede, più a lungo sogna»</p>
     <div class="cta">
       <a class="btn" href="#about">Scopri di più</a>
       <a class="btn ghost" href="#pubblicazioni">Pubblicazioni</a>
@@ -63,7 +64,7 @@
   </div>
 </section>
 
-<section class="band" style="--img:url('img/concarena.jpg')">
+<section class="band" style="--img:url('../img/concarena.jpg')">
   <blockquote>“La Valcamonica non si guarda: si sale, e da lassù si capisce.”</blockquote>
 </section>
 
@@ -91,8 +92,22 @@
 
     <h3 class="center sub2">Competenze e certificazioni</h3>
     <div class="tags">
-      <span>Python</span><span>SQL</span><span>Power BI</span><span>Power Query</span><span>Python Dash</span><span>Oracle</span><span>JavaScript</span><span>HTML/CSS</span><span>Java</span><span>UML</span><span>Epidemiologia</span><span>Analisi dei dati</span><span>Flussi informativi sanitari</span><span>Healthcare Management</span><span>ISO 27001</span><span>IBM Cybersecurity Analyst</span><span>ISC2 Security Principles</span><span>Auditor interno ISMS (Intertek)</span><span>Competenze digitali PA</span>
+      <span>Python</span><span>SQL</span><span>Power BI</span><span>Power Query</span><span>Python Dash</span><span>Oracle</span><span>JavaScript</span><span>HTML/CSS</span><span>Java</span><span>UML</span><span>Epidemiologia</span><span>Analisi dei dati</span><span>Flussi informativi sanitari</span><span>Healthcare Management</span><span>ISO 27001</span><span>IBM Cybersecurity Analyst</span><span>ISC2 Security Principles</span><span>ISC2 Network Security</span><span>Auditor interno ISMS (Intertek)</span><span>Competenze digitali PA</span>
     </div>
+
+    <h3 class="center sub2">Progetti</h3>
+    <ul class="edu">
+      <li><b>Final Task IOL Polimi</b><span>Politecnico di Milano · 2022</span><em>Progetto finale del corso di laurea online in Ingegneria Informatica · <a href="https://gitlab.com/gfzanotti/finaltask_iol.git" target="_blank" rel="noopener">GitLab ↗</a></em></li>
+    </ul>
+
+    <h3 class="center sub2">Post tecnici da LinkedIn</h3>
+    <ul class="edu">
+      <li><b>Automazione eCRF con Java + REDCap REST API</b><span>set 2026</span><em>Sviluppo di una desktop app Java per generare e sincronizzare instrument eCRF verso REDCap, con workflow tracciabile e riduzione delle attività manuali · <a href="https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7500884834093862912" target="_blank" rel="noopener">Post ↗</a></em></li>
+      <!-- <li><b>Analisi tempi di attesa con Power BI (M + DAX)</b><span>set 2022</span><em>Visualizzazione evolutiva di prestazioni ambulatoriali per priorità/presidio, gestione matrici sparse e dashboard decisionali · <a href="https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6980433040019718144" target="_blank" rel="noopener">Post ↗</a></em></li>
+      <li><b>Recupero dati web sanitario con Python (OOP + ricorsione)</b><span>set 2022</span><em>Pipeline per individuare e raccogliere fonti web ASST su liste di attesa, con approccio object-oriented e funzione ricorsiva · <a href="https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6979511663263662080" target="_blank" rel="noopener">Post ↗</a></em></li>
+      <li><b>Automazione reportistica flussi sanitari</b><span>set 2022</span><em>Dal dato grezzo a reporting per controllo/decisione: implementazioni in Python e in stack Excel + Power Query + Power BI · <a href="https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6972609636608688128" target="_blank" rel="noopener">Post ↗</a></em></li>
+      <li><b>Dashboard interattive per flussi informativi sanitari</b><span>set 2022</span><em>Prototipo di esposizione dati con filtri interattivi per supportare lettura e uso decisionale delle informazioni · <a href="https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6971494203004448768" target="_blank" rel="noopener">Post ↗</a></em></li> -->
+    </ul>
   </div>
 </section>
 
@@ -140,8 +155,8 @@
       <li class="reveal">
         <span class="year">2023</span>
         <div><h3>Problemi e soluzioni nella gestione sanitaria</h3>
-        <p>Catalogo di progetti dei corsi di formazione manageriale 2019 e 2021, a cura di A. Colombo e V. Viganò. Settembre 2023 (estratto).</p>
-        <a href="pdf/gestione-sanitaria-2023-estratto.pdf" target="_blank" rel="noopener">PDF ↗</a></div>
+        <p>Contributo: <i>Proposta concreta di sviluppo di una rete digitale sanitaria in patologia renale</i>. Catalogo di progetti dei corsi di formazione manageriale 2019 e 2021, a cura di A. Colombo e V. Viganò (PoliS Lombardia, settembre 2023).</p>
+        <a href="pdf/gestione-sanitaria-2023-estratto.pdf" target="_blank" rel="noopener">PDF ↗</a> <a href="https://www.polis.lombardia.it/wps/wcm/connect/1b70dd11-a98a-40f5-9374-c37915b582b5/Problemi+e+soluzioni+nella+gestione+sanitaria_afssl_ed2023.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-1b70dd11-a98a-40f5-9374-c37915b582b5-oK0y7WG" target="_blank" rel="noopener">PoliS Lombardia ↗</a></div>
       </li>
     </ol>
   </div>
@@ -202,7 +217,7 @@
   </div>
 </section>
 
-<section class="section contact" id="contatti" style="--img:url('img/hero-adamello.jpg')">
+<section class="section contact" id="contatti" style="--img:url('../img/hero-adamello.jpg')">
   <div class="wrap center">
     <p class="eyebrow">Contatti</p>
     <h2>Restiamo in contatto</h2>
@@ -221,6 +236,6 @@
   <p class="credits">Foto: archivio personale. Panorami del territorio da Wikimedia Commons, con licenze CC BY 3.0, CC BY-SA 3.0 e CC BY-SA 4.0 (autori: Francesco Zanardini, pacj, Luca Giarelli, Zairon, Mik2001) &mdash; <a href="CREDITS.txt">crediti completi</a>.</p>
 </footer>
 
-<script src="main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

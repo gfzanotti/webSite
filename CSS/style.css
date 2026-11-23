@@ -35,7 +35,7 @@ h2{font-size:clamp(2rem,4vw,3rem);margin-bottom:1rem}
 .center .cta{justify-content:center}
 
 .hero{position:relative;min-height:100vh;display:flex;align-items:center;color:#fff;overflow:hidden}
-.hero-bg{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,25,22,.45),rgba(10,25,22,.65)),url('img/hero-adamello.jpg') center/cover;transform:scale(1.05);animation:zoom 22s ease-out forwards}
+.hero-bg{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,25,22,.45),rgba(10,25,22,.65)),url('../img/hero-adamello.jpg') center/cover;transform:scale(1.05);animation:zoom 22s ease-out forwards}
 @keyframes zoom{to{transform:scale(1)}}
 .hero-inner{position:relative;max-width:1180px;margin:0 auto;padding:120px 24px 60px;width:100%}
 .hero h1{font-size:clamp(3rem,9vw,7rem);font-weight:300;letter-spacing:-.02em}
